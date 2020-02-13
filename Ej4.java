@@ -31,7 +31,9 @@ public class Ej4{
 		//utilizo el printf para poder indicar las operaciones directas, no crear mas variables.
         System.out.printf("La suma es %f", n1+n2);
         System.out.printf("La resta es %f", n1-n2);
-        //System.out.printf("La división es %f", n1/n2);
-        //System.out.printf("La multiplicación es %f", n1*n2);
+
+	/* Función de división y multiplicación, corregidas por @rafacab1 */
+        System.out.printf("La división es %f", n1/n2);
+        System.out.printf("La multiplicación es %f", n1*n2);
     }
 }
